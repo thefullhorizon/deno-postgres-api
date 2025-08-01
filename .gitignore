@@ -3,3 +3,5 @@
 .vscode/*
 # 但保留.vscode/settings.json文件
 !.vscode/settings.json
+
+deno.lock
