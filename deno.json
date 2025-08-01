@@ -1,9 +1,12 @@
 {
+  "name": "deno-postgres-api",
+  "version": "0.1.0",
   "tasks": {
-    "start": "deno run --allow-net --allow-env main.ts"
+    "start": "deno run --allow-net --allow-env --allow-read main.ts"
   },
   "imports": {
-    "postgres": "https://deno.land/x/postgres@v0.19.3/mod.ts",
-    "std/": "https://deno.land/std@0.208.0/"
+    "std/dotenv": "https://deno.land/std@0.204.0/dotenv/load.ts",
+    "oak": "https://deno.land/x/oak@v12.6.1/mod.ts",
+    "postgres": "https://deno.land/x/postgres@v0.19.3/mod.ts"
   }
 }
