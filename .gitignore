@@ -1,1 +1,5 @@
 .env
+# 忽略.vscode目录下的所有文件
+.vscode/*
+# 但保留.vscode/settings.json文件
+!.vscode/settings.json
