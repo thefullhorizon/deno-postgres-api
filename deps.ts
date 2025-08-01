@@ -3,6 +3,7 @@
 import "std/dotenv";
 // 这是Deno项目中用于构建Web应用和API的工具，就像Node.js中的Express一样
 export { Application, Router } from "oak" ;
+export { oakCors } from "cors";
 // 这是Deno中用于连接PostgreSQL数据库的库
 export { Client } from "postgres";
 

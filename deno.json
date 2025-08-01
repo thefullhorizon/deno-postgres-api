@@ -11,6 +11,7 @@
   },
   "imports": {
     "std/dotenv": "https://deno.land/std@0.204.0/dotenv/load.ts",
+    "cors":"https://deno.land/x/cors/mod.ts",
     "oak": "https://deno.land/x/oak@v12.6.1/mod.ts",
     "postgres": "https://deno.land/x/postgres@v0.19.3/mod.ts"
   }
