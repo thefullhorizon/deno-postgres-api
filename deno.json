@@ -1,6 +1,11 @@
 {
   "name": "deno-postgres-api",
   "version": "0.1.0",
+  "deno.enable": true,
+  "deno.config": "./deno.json",
+  "deno.lint": true,
+  "deno.unstable": false,
+  "deno.version": "1.34.0",
   "tasks": {
     "start": "deno run --allow-net --allow-env --allow-read main.ts"
   },
