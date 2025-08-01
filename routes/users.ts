@@ -5,7 +5,7 @@ import client from "../db.ts";
 const router = new Router();
 
 router.get("/users", async (ctx) => {
-  const result = await client.queryArray("SELECT * FROM user_actions LIMIT 2");
+  const result = await client.queryObject("SELECT * FROM user_actions LIMIT 2");
   ctx.response.body = result.rows;
 });
 
